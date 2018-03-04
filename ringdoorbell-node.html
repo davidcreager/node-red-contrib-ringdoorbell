@@ -28,7 +28,7 @@
    </p>
    <p>
    Outputs an object called <b>msg</b> containing all the device ringactivity in <b>msg.payload</b>
-   The <b>msg.topic</b> can be set in the node's configuration
+   The <b>msg.topic</b> can be set in the nodes configuration
 or it will default to the node name or "sun events".
    </p>
    <p>
@@ -56,7 +56,7 @@ or it will default to the node name or "sun events".
 <!-- Finally, the node type is registered along with all of its properties   -->
 <!-- The example below shows a small subset of the properties that can be set-->
 <script type="text/javascript">
-    RED.nodes.registerType('sun events',{
+    RED.nodes.registerType('ring doorbell',{
         category: 'input',      // the palette category
         defaults: {             // defines the editable properties of the node
         	testmode: {value:"N"},
@@ -65,15 +65,15 @@ or it will default to the node name or "sun events".
         	name: {value:""}
         },
         credentials: {
-            latitude: {type: "text"}, // {value:"", required: true},   //  along with default values.
-            longitude: {type: "text"} // {value:"", required:true}
+            email: {type: "text"}, // {value:"", required: true},   //  along with default values.
+            password: {type: "text"} // {value:"", required:true}
         },
-        color:"#FFCC66",
+        color:"#ef6530",
         inputs:0,                // set the number of inputs - only 0 or 1
         outputs:1,               // set the number of outputs - 0 to n
-        icon: "white_golden_sun.png", //"white-globe.png",    // set the icon (held in public/icons)
+        icon: "bridge.png", //"white-globe.png",    // set the icon (held in public/icons)
         label: function() {      // sets the default label contents
-            return this.name||"sun events";
+            return this.name||"ring doorbell";
         },
         labelStyle: function() { // sets the class to apply to the label
             return this.name ? "" : "node_label_italic";

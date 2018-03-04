@@ -1,6 +1,6 @@
 {
-  "_from": "node-red-contrib-ringdoorbell@1.0",
-  "_id": "node-red-contrib-ringdoorbell@1.0",
+  "_from": "node-red-contrib-ringdoorbell@1.0.0",
+  "_id": "node-red-contrib-ringdoorbell@1.0.0",
   "_inBundle": false,
   "_integrity": "sha1-XEol6ryl10jaYSs2jhXzxwrSwrA=",
   "_location": "/node-red-contrib-ringdoorbell",
@@ -8,12 +8,12 @@
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "node-red-contrib-ringdoorbell@1.0",
+    "raw": "node-red-contrib-ringdoorbell@1.0.0",
     "name": "node-red-contrib-ringdoorbell",
     "escapedName": "node-red-contrib-ringdoorbell",
-    "rawSpec": "1.0",
+    "rawSpec": "1.0.0",
     "saveSpec": null,
-    "fetchSpec": "1.0"
+    "fetchSpec": "1.0.0"
   },
   "_requiredBy": [
     "#USER",
@@ -21,7 +21,7 @@
   ],
   "_resolved": "https://registry.npmjs.org/node-red-contrib-sunevents/-/node-red-contrib-sunevents-0.0.5.tgz",
   "_shasum": "5c4a25eabca5d748da612b368e15f3c70ad2c2b0",
-  "_spec": "node-red-contrib-ringdoorbell@1.0",
+  "_spec": "node-red-contrib-ringdoorbell@1.0.0",
   "_where": "C:\\Users\\Administrator\\.node-red",
   "author": {
     "name": "Tony Simons",
@@ -55,5 +55,5 @@
     "type": "git",
     "url": "git+https://github.com/thevalyreangroup/node-red-contrib-ringdoorbell.git"
   },
-  "version": "1.0"
+  "version": "1.0.0"
 }

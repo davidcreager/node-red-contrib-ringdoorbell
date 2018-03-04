@@ -25,7 +25,6 @@ module.exports = function(RED) {
       }
 
     	node.log("Gathering Ring device info...")
-    	//node.events = new SunEvents(this.latitude, this.longitude, this.modes)
 			node.events = new RingDoorbell(this.email, this.password)
 
     	node.events.on("ringactivity", function(activity) {
@@ -51,7 +50,6 @@ module.exports = function(RED) {
 			// Called when the node is shutdown - eg on redeploy.
 			// Allows ports to be closed, connections dropped etc.
 			// eg: this.client.disconnect();
-			node.events.stop();
 		});
 	}
 

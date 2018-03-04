@@ -21,7 +21,7 @@
   ],
   "_resolved": "https://registry.npmjs.org/node-red-contrib-sunevents/-/node-red-contrib-sunevents-0.0.5.tgz",
   "_shasum": "5c4a25eabca5d748da612b368e15f3c70ad2c2b0",
-  "_spec": "node-red-contrib-sunevents@0.0.5",
+  "_spec": "node-red-contrib-ringdoorbell@1.0",
   "_where": "C:\\Users\\Administrator\\.node-red",
   "author": {
     "name": "Tony Simons",
@@ -29,7 +29,7 @@
     "url": "http://www.thevalyreangroup.com"
   },
   "bugs": {
-    "url": "https://github.com/freakent/node-red-contrib-sunevents/issues"
+    "url": "https://github.com/thevalyreangroup/node-red-contrib-ringdoorbell/issues"
   },
   "bundleDependencies": false,
   "dependencies": {
@@ -53,7 +53,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/freakent/node-red-contrib-sunevents.git"
+    "url": "git+https://github.com/thevalyreangroup/node-red-contrib-ringdoorbell.git"
   },
-  "version": "0.0.5"
+  "version": "1.0"
 }

@@ -29,28 +29,8 @@
    <p>
    Outputs an object called <b>msg</b> containing all the device ringactivity in <b>msg.payload</b>
    The <b>msg.topic</b> can be set in the nodes configuration
-or it will default to the node name or "sun events".
+or it will default to the node name or "ring doorbell".
    </p>
-   <p>
-   Calculations are performed using the excellent SunCalc module (https://github.com/mourner/suncalc)
-   and the following sun events are output from this node:
-   </p>
-   <ul>
-   		<li>sunrise: sunrise (top edge of the sun appears on the horizon)</li>
-		<li>sunriseEnd: sunrise ends (bottom edge of the sun touches the horizon)</li>
-		<li>goldenHourEnd: morning golden hour (soft light, best time for photography) ends</li>
-		<li>solarNoon: solar noon (sun is in the highest position)</li>
-		<li>goldenHour: evening golden hour starts</li>
-		<li>sunsetStart: sunset starts (bottom edge of the sun touches the horizon)</li>
-		<li>sunset: sunset (sun disappears below the horizon, evening civil twilight starts)</li>
-		<li>dusk: dusk (evening nautical twilight starts)</li>
-		<li>nauticalDusk: nautical dusk (evening astronomical twilight starts)</li>
-		<li>night: night starts (dark enough for astronomical observations)</li>
-		<li>nightEnd: night ends (morning astronomical twilight starts)</li>
-		<li>nauticalDawn: nautical dawn (morning nautical twilight starts)</li>
-		<li>dawn: dawn (morning nautical twilight ends, morning civil twilight starts)</li>
-		<li>nadir: nadir (darkest moment of the night, sun is in the lowest position)</li>
-	</ul>
 </script>
 
 <!-- Finally, the node type is registered along with all of its properties   -->

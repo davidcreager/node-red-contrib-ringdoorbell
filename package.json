@@ -9,7 +9,7 @@
   },
   "bundleDependencies": false,
   "dependencies": {
-    "ring-api": "^2.0.7"
+    "ring-api": "^2.1.3"
   },
   "deprecated": false,
   "description": "A node for node-red that uses the unofficial ring-api package.",

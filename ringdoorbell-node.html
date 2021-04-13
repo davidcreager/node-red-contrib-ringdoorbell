@@ -1,20 +1,14 @@
 <script type="text/x-red" data-template-name="ring doorbell">
 
 	<div class="form-row">
-        <label for="node-config-input-email">Email</label>
-        <input type="text" id="node-input-email">
-    </div>
-    <div class="form-row">
-        <label for="node-input-password">Password</label>
-        <input type="text" id="node-input-password">
+        <label for="node-input-token">Token</label>
+        <input type="text" id="node-input-token">
     </div>
     <div class="form-row">
         <label for="node-input-topic"><i class="fa fa-tasks"></i> Topic</label>
         <input type="text" id="node-input-topic" placeholder="Topic">
     </div>
-    <!-- By convention, most nodes have a 'name' property. The following div -->
-    <!-- provides the necessary field.                                       -->
-    <div class="form-row">
+     <div class="form-row">
         <label for="node-input-name"><i class="icon-tag"></i> Name</label>
         <input type="text" id="node-input-name" placeholder="Name">
     </div>
@@ -39,14 +33,11 @@ or it will default to the node name or "ring doorbell".
     RED.nodes.registerType('ring doorbell',{
         category: 'input',      // the palette category
         defaults: {             // defines the editable properties of the node
+			token: {value:""},
         	testmode: {value:"N"},
         	verbose: {value:"N"},
         	topic: {value:""},
         	name: {value:""}
-        },
-        credentials: {
-            email: {type: "text"}, // {value:"", required: true},   //  along with default values.
-            password: {type: "text"} // {value:"", required:true}
         },
         color:"#ef6530",
         inputs:0,                // set the number of inputs - only 0 or 1
